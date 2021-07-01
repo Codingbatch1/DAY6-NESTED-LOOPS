@@ -1,0 +1,28 @@
+/*1  0  1  0  1
+  1  0  1  0  1
+  1  0  1  0  1
+  1  0  1  0  1
+  1  0  1  0  1*/
+ 
+class p3
+{
+public static void main(String args[])
+{
+int n=5;
+int i,j;
+int temp;
+for(i=1;i<=n;i++)
+  { 
+           temp=1;
+         for(j=1;j<=n;j++)
+          {
+             System.out.print(temp+"  ");
+             if (temp==0)
+                   temp=1;
+             else
+                   temp=0;
+           }
+     System.out.print("\n");
+}
+}
+}

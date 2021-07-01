@@ -1,0 +1,49 @@
+/*a
+  b   c
+  d   e   f
+  g   h   i   j */
+  import java.util.*;
+class p4
+{
+public static void main(String args[])
+{
+int n=4;
+int i,j;
+char ch='a';
+for(i=1;i<=n;i++)
+  { 
+     for(j=1;j<=i;j++)
+    {
+       System.out.print(ch+"   ");
+ch++;
+     }
+
+ System.out.println();   
+}   
+}
+}
+/*
+a
+b   b
+c   c   c
+d   d   d   d */
+import java.util.*;
+class p4
+{
+public static void main(String args[])
+{
+int n=4;
+int i,j;
+char ch='a';
+for(i=1;i<=n;i++)
+  { 
+     for(j=1;j<=i;j++)
+    {
+       System.out.print(ch+"   ");
+
+     }
+ch++;
+ System.out.println();   
+}   
+}
+}
